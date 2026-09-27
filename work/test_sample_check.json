@@ -1,0 +1,20 @@
+{
+  "anchors": 10000,
+  "country_counts": {
+    "US": 3891,
+    "France": 1490,
+    "India": 4619
+  },
+  "candidate_pairs": 37211,
+  "candidate_mean": 3.7211,
+  "candidate_median": 2,
+  "candidate_p90": 12,
+  "candidate_p95": 12,
+  "candidate_p99": 13,
+  "candidate_max": 22,
+  "predicted_matches": 12273,
+  "target_ids_all_exist": true,
+  "matches_subset_of_candidates": true,
+  "rows_unique_and_in_source1_order": true,
+  "elapsed_s": 8.821975600003498
+}

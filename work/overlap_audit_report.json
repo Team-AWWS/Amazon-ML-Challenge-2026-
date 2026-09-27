@@ -1,0 +1,30 @@
+{
+  "source1_rows": {
+    "train": 2206821,
+    "test": 1732544
+  },
+  "source1_country_counts": {
+    "train": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "test": {
+      "US": 663106,
+      "France": 259452,
+      "India": 809986
+    }
+  },
+  "source1_duplicate_ids_within_each_split": 0,
+  "source1_exact_duplicate_record_extra_rows": {
+    "train": 0,
+    "test": 0
+  },
+  "source1_train_test_id_overlap": 0,
+  "source1_elapsed_s": 115.24587810001685,
+  "target_train_test_id_overlap": 0,
+  "train_target_normalized_duplicate_extra_rows_within_source": 143071,
+  "train_target_normalized_duplicate_groups_across_sources": 6895,
+  "test_target_normalized_duplicate_extra_rows_within_source": 125646,
+  "test_target_normalized_duplicate_groups_across_sources": 12565,
+  "target_elapsed_s": 374.6105876999791
+}

@@ -1,0 +1,50 @@
+{
+  "anchors": 2206821,
+  "exact_name_address_groups_crossing_partitions": 0,
+  "dev_or_holdout_anchors_sharing_exact_name_but_different_address_with_train": 34145,
+  "dev_or_holdout_anchors_sharing_exact_address_but_different_name_with_train": 4631,
+  "name_proxy_examples": [
+    {
+      "heldout_id": "S1-28638226",
+      "train_id": "S1-865131206",
+      "country": "US",
+      "name": "helios",
+      "heldout_address": "1574 seven eleven road buckingham county va",
+      "train_address": "66 edgewood street bridgeport ct"
+    },
+    {
+      "heldout_id": "S1-66505736",
+      "train_id": "S1-865131206",
+      "country": "US",
+      "name": "helios",
+      "heldout_address": "ar 124 court square magnolia",
+      "train_address": "66 edgewood street bridgeport ct"
+    },
+    {
+      "heldout_id": "S1-180531273",
+      "train_id": "S1-82053739",
+      "country": "India",
+      "name": "smart healthcare private limited",
+      "heldout_address": "5th floor modern 8a industrial area s a s nagar mohali rupnagar tower f 547 punjab",
+      "train_address": "303 3rd floor sakar 5 b h natraj cinema ashram road ahmedabad gujarat"
+    },
+    {
+      "heldout_id": "S1-247980225",
+      "train_id": "S1-82053739",
+      "country": "India",
+      "name": "smart healthcare private limited",
+      "heldout_address": "3rd floor office no 320 m3m cosmopolitan golfcourse extension road sector 66 gurugram gurgaon haryana",
+      "train_address": "303 3rd floor sakar 5 b h natraj cinema ashram road ahmedabad gujarat"
+    },
+    {
+      "heldout_id": "S1-157463224",
+      "train_id": "S1-82053739",
+      "country": "India",
+      "name": "smart healthcare private limited",
+      "heldout_address": "5 139 a yas villa kolappa p o irukkur taliparamba kannur kerala",
+      "train_address": "303 3rd floor sakar 5 b h natraj cinema ashram road ahmedabad gujarat"
+    }
+  ],
+  "interpretation": "Partial-field overlaps are leakage-risk proxies, not confirmed shared entities.",
+  "elapsed_s": 409.23693630000344
+}

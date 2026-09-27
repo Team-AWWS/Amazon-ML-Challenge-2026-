@@ -1,0 +1,12 @@
+# Known limitations and unresolved items
+
+- **Retrieval ceiling:** Primary labeled holdout link candidate recall is 0.430373. True matches absent from its candidate set cannot be predicted. Candidate-oracle holdout macro F0.5 is 0.640236, versus achieved 0.561627 (`work/holdout_rare_both_full.json`).
+- **False positives and multiplicity:** Labeled holdout counted 13,038 false-positive links and 92,159 missed links at fixed 0.65 (`work/holdout_rare_both_confusion.json`). Some unlabeled France rows have unusually many predictions at shared/coarse addresses. Their correctness is `UNKNOWN`.
+- **Unseen country:** France has no labels. Current output rates/coverage are known, France accuracy is not. See `FRANCE_SHIFT.md`.
+- **Efficiency tradeoff:** Primary mean candidate count on holdout is 13.368 versus fallback 3.630. The official weighting between candidate efficiency and F0.5 is `UNKNOWN`; local F0.5 gain does not prove a better overall leaderboard result.
+- **Split proximity:** Exact normalized name+address groups do not cross train/dev/holdout, but 34,145 dev/holdout anchors share an exact name with different-address train anchors and 4,631 share an exact address with different-name train anchors. These are leakage-risk proxies, not proven leaks (`work/leakage_report.json`).
+- **Runtime variance:** Primary full wall time 13,737.2 s includes an observed roughly two-hour host pause; cause `UNKNOWN`. Keep deadline margin for any rerun.
+- **Repository inventory:** Remote `main` had only a short README when inspected; no distinct teammate model was found in the available local/remote tree. Teammates may have private branches or unshared files: `UNKNOWN` until supplied.
+- **Historical handoffs:** `HANDOFF.md` and `PROJECT_HANDOFF_2026-09-26.md` contain snapshots from before promotion; do not use their live-process claims as current state. Use `CURRENT_STATE.md` and `SUBMISSION_STATE.md`.
+- **Portal status:** No upload from this work; remaining attempts and leaderboard result `UNKNOWN`. Team/member placeholders remain to fill before final submission.
+- **ZIP vs repository methodology:** The validated ZIP contains an older `Documentation_template.md` sentence saying full-test totals were pending. The Git copy corrects it; all other current files represented in the ZIP manifest, including both TSVs and production code, match their archived hashes. This is a documentation mismatch, not an output-integrity failure. The ZIP was intentionally not regenerated.

@@ -1,0 +1,39 @@
+{
+  "partition": "holdout",
+  "variant": "rare_both",
+  "fixed_threshold": 0.65,
+  "overall": {
+    "anchors": 44212,
+    "tp": 61129,
+    "fp": 13038,
+    "fn": 92159,
+    "micro_precision": 0.8242075316515431,
+    "micro_recall": 0.39878529304316057,
+    "macro_f05": 0.5616271142866807,
+    "link_candidate_recall": 0.43037289285527897
+  },
+  "by_country": {
+    "India": {
+      "anchors": 17724,
+      "tp": 24563,
+      "fp": 6671,
+      "fn": 37045,
+      "micro_precision": 0.7864186463469296,
+      "micro_recall": 0.3986982210102584,
+      "macro_f05": 0.532502988141144,
+      "link_candidate_recall": 0.4402188027528892
+    },
+    "US": {
+      "anchors": 26488,
+      "tp": 36566,
+      "fp": 6367,
+      "fn": 55114,
+      "micro_precision": 0.8516991591549624,
+      "micro_recall": 0.39884380453752183,
+      "macro_f05": 0.5811150337899837,
+      "link_candidate_recall": 0.4237565445026178
+    }
+  },
+  "elapsed_s": 288.14697139995405,
+  "scope_note": "Labeled local split only; no test truth was supplied"
+}

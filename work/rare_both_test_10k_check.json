@@ -1,0 +1,44 @@
+{
+  "anchors": 10000,
+  "country_counts": {
+    "US": 3891,
+    "France": 1490,
+    "India": 4619
+  },
+  "country_candidate_mean": {
+    "US": 13.771267026471344,
+    "France": 16.276510067114096,
+    "India": 13.916865122320848
+  },
+  "country_candidate_p95": {
+    "US": 26,
+    "France": 27,
+    "India": 25
+  },
+  "country_matches_per_anchor": {
+    "US": 1.7352865587252635,
+    "France": 2.3919463087248323,
+    "India": 1.868153279930721
+  },
+  "country_empty_prediction_rate": {
+    "US": 0.228218966846569,
+    "France": 0.1174496644295302,
+    "India": 0.23403334054990257
+  },
+  "candidate_pairs": 142118,
+  "candidate_mean": 14.2118,
+  "candidate_median": 13,
+  "candidate_p90": 25,
+  "candidate_p95": 26,
+  "candidate_p99": 28,
+  "candidate_max": 31,
+  "predicted_matches": 18945,
+  "target_ids_all_exist": true,
+  "matches_subset_of_candidates": true,
+  "rows_unique_and_in_source1_order": true,
+  "output_sha256": {
+    "matching_results.tsv": "15c98cf126456676ffa4735beb5859081000212847d3ba2942d64e49d0fe8fc7",
+    "candidate_pairs.tsv": "18a909fa8492f8079fb527250a6c02566fcf435fe037f36ab6a6f31b724133b6"
+  },
+  "elapsed_s": 40.59319919999689
+}

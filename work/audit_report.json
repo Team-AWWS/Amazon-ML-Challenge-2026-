@@ -1,0 +1,36 @@
+{
+  "source1_rows": 2206821,
+  "source1_duplicate_ids": 0,
+  "bad_anchor_prefix": 0,
+  "country_counts": {
+    "US": 1323633,
+    "India": 883188
+  },
+  "partition_counts": {
+    "train": 2118511,
+    "dev": 44098,
+    "holdout": 44212
+  },
+  "ground_truth_rows": 2206821,
+  "missing_labels": 0,
+  "extra_labels": 0,
+  "label_links": 7638365,
+  "duplicate_ids_within_label_lists": 0,
+  "bad_target_prefix_links": 0,
+  "unknown_target_links": 0,
+  "cross_country_labeled_links": 0,
+  "name_length": {
+    "median": 24,
+    "p95": 37,
+    "p99": 42,
+    "max": 105
+  },
+  "address_length": {
+    "median": 41,
+    "p95": 103,
+    "p99": 124,
+    "max": 256
+  },
+  "exact_normalized_name_address_groups_stay_together": true,
+  "elapsed_s": 819.0988838000048
+}

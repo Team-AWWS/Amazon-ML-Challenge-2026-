@@ -1,0 +1,3 @@
+# No third-party runtime dependencies; the environment is fully pinned by the
+# built-in Python/SQLite versions documented in README.md (tested Python 3.14.2,
+# SQLite 3.50.4 with FTS5). Python >=3.12 is expected to work.

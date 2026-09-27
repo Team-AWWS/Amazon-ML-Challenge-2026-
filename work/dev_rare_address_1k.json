@@ -1,0 +1,36 @@
+{
+  "partition": "dev",
+  "variant": "rare_address",
+  "threshold_selection": "optimized_on_dev_sample",
+  "anchors": 1000,
+  "country_counts": {
+    "US": 500,
+    "India": 500
+  },
+  "country_macro_f05": {
+    "US": 0.5781106765389779,
+    "India": 0.5285970477582572
+  },
+  "country_candidate_recall": {
+    "US": 0.3978685612788632,
+    "India": 0.4028520499108734
+  },
+  "multiplicity_counts": {
+    "multiple": 879,
+    "singleton": 51,
+    "zero": 70
+  },
+  "best_threshold": 0.66,
+  "macro_f05": 0.5533538621486175,
+  "candidate_recall": 0.400355871886121,
+  "candidate_oracle_macro_f05": 0.6084848928637882,
+  "candidate_mean": 8.91,
+  "candidate_median": 12.0,
+  "candidate_p90": 14,
+  "candidate_p95": 15,
+  "candidate_p99": 19,
+  "candidate_max": 19,
+  "elapsed_s": 10.072229499986861,
+  "throughput_anchors_s": 99.28287877387262,
+  "peak_working_set_mb": 102.8
+}

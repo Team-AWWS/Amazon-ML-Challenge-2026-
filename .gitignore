@@ -1,0 +1,42 @@
+# Supplied competition data and extracted copies
+/Dataset/student_resource/dataset/
+/Dataset/__MACOSX/
+**/.DS_Store
+/Dataset/**/*.zip
+*.sqlite
+*.sqlite-*
+*.db
+
+# Validated/generated submission artifacts stay on the local machine.
+/output/
+/best/*.tsv
+/fallback/*.tsv
+/amazon_ml_challenge_2026_submission.zip
+/*.zip
+
+# Large generated work products, fixtures, caches, temporary files
+/work/*
+!/work/*.json
+!/work/*.md
+!/work/*.py
+/tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.log
+*.part
+
+# Private credentials and local editor state
+*.pem
+*.key
+credentials.json
+secrets.json
+.vscode/
+.idea/

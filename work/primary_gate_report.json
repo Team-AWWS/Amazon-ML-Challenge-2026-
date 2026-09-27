@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-09-26T17:06:57.108184+00:00",
+  "anchors": 1732544,
+  "country_counts": {
+    "US": 663106,
+    "France": 259452,
+    "India": 809986
+  },
+  "candidate_pairs": 24702044,
+  "predicted_matches": 3327344,
+  "candidate_max": 31,
+  "candidate_size_histogram": {
+    "23": 38361,
+    "11": 49282,
+    "12": 310923,
+    "16": 53977,
+    "13": 196123,
+    "6": 21218,
+    "24": 123308,
+    "14": 125319,
+    "19": 27347,
+    "25": 101104,
+    "0": 42487,
+    "15": 77884,
+    "9": 48115,
+    "26": 59169,
+    "8": 44868,
+    "10": 49604,
+    "2": 42119,
+    "3": 31518,
+    "4": 26057,
+    "5": 23524,
+    "17": 40652,
+    "22": 18939,
+    "27": 27809,
+    "1": 50478,
+    "18": 33270,
+    "21": 14283,
+    "7": 19161,
+    "20": 13237,
+    "28": 12362,
+    "29": 5860,
+    "31": 1271,
+    "30": 2915
+  },
+  "country_empty_prediction_rate": {
+    "US": 0.21934351370670752,
+    "France": 0.11540092194317253,
+    "India": 0.2373374354618475
+  },
+  "empty_match_rows": 367629,
+  "empty_candidate_rows": 42487,
+  "output_sha256": {
+    "matching_results.tsv": "df1415117c62d350ca33d51bffa678934f1f2c6282997fb0103087995178ff05",
+    "candidate_pairs.tsv": "3d5b2e71e32e11f168d22725c03757f62b0853147e7f3ba7cfa0f4bf7cc3f9c5"
+  },
+  "fallback_sha256": {
+    "matching_results.tsv": "4337e005594f60763e3b77258450b390d5f5dc6964b5a22adf1269270863461e",
+    "candidate_pairs.tsv": "5e917412aabc367bb709eb70584cdfd7cc440b764f03828c9f6601525dcf34e8"
+  },
+  "strict_tsv_shape": true,
+  "placeholder_fields_absent": true,
+  "source1_ids_unique_and_covered": true
+}
