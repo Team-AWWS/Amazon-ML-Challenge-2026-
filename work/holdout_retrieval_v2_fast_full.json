@@ -1,0 +1,27 @@
+{
+  "partition": "holdout",
+  "max_df": 500,
+  "routes": 1,
+  "module_sha256": "3f13e7f4a4a0ef14bf390d5557e286c4072c3bc48b816a455eb0e9c5ade93a28",
+  "anchors": 44212,
+  "country_counts": {
+    "India": 17724,
+    "US": 26488
+  },
+  "candidate_recall": 0.8824304577005375,
+  "candidate_oracle_macro_f05": 0.953387439244327,
+  "candidate_mean": 30.03026327693839,
+  "raw_candidate_mean": 156.65226635302633,
+  "raw_candidate_max": 1072,
+  "retrieval_seconds": 392.98534470493905,
+  "scoring_seconds": 44.850832307653036,
+  "elapsed_seconds": 616.031428599963,
+  "thresholds": [
+    {
+      "threshold": 0.75,
+      "macro_f05": 0.7464695158646216,
+      "precision": 0.8992791945406905,
+      "recall": 0.6112350608005845
+    }
+  ]
+}

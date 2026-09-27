@@ -1,0 +1,15 @@
+{
+  "metric": "Macro per-Source-1 F0.5; empty truth and empty prediction score 1, empty truth and nonempty prediction score 0",
+  "live_scored_file": "matching_results.tsv",
+  "public_population": "Subset of test; fraction, country mix, match distribution unspecified",
+  "private_population": "Supplied README says remaining test; public listing loosely says complete test",
+  "candidate_efficiency": "Official current PDF says smaller candidate sets influence final ranking beyond public/private leaderboard; numerical weight unspecified",
+  "official_update_url": "https://d8it4huxumps7.cloudfront.net/files/6ab66c58d670e_final_submission_candidate_generation.pdf",
+  "official_listing_url": "https://unstop.com/hackathons/crp-amazon-ml-challenge-2026-amazon-1743604",
+  "deadline_IST": "2026-09-27T23:59:00+05:30",
+  "experiment_cutoff_IST": "2026-09-27T19:59:00+05:30",
+  "zero_truth_holdout_proportion": 0.055188632,
+  "actual_team_leaderboard_score": null,
+  "remaining_submission_attempts": null,
+  "decision": "No verified evidence that a different live scoring metric explains the gap. Obtain actual upload feedback when portal is accessible. Candidate oracle 0.6402356 identifies retrieval as the strongest known ceiling."
+}

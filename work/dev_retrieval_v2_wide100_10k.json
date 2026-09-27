@@ -1,0 +1,64 @@
+{
+  "partition": "dev",
+  "max_df": 1500,
+  "routes": 2,
+  "candidate_cap": 100,
+  "module_sha256": "3bbc3dc72058ba454dac578eefb1db2460a32a7e9ed5bb922fcb45b60d146fdb",
+  "anchors": 10000,
+  "country_counts": {
+    "US": 5000,
+    "India": 5000
+  },
+  "candidate_recall": 0.9199732176646968,
+  "candidate_oracle_macro_f05": 0.9676974747030923,
+  "candidate_mean": 88.9858,
+  "raw_candidate_mean": 632.4766,
+  "raw_candidate_max": 3897,
+  "retrieval_seconds": 234.75887629785575,
+  "scoring_seconds": 25.014805903541856,
+  "elapsed_seconds": 299.1995484000072,
+  "thresholds": [
+    {
+      "threshold": 0.55,
+      "macro_f05": 0.6606237502428034,
+      "precision": 0.6029605329769354,
+      "recall": 0.8668161043346627
+    },
+    {
+      "threshold": 0.6,
+      "macro_f05": 0.7151166145888885,
+      "precision": 0.7161175422974176,
+      "recall": 0.8193939041075952
+    },
+    {
+      "threshold": 0.65,
+      "macro_f05": 0.7278092158454431,
+      "precision": 0.7582483675105969,
+      "recall": 0.7707199208174434
+    },
+    {
+      "threshold": 0.7,
+      "macro_f05": 0.7286604322794076,
+      "precision": 0.7851946803396892,
+      "recall": 0.7132834560857034
+    },
+    {
+      "threshold": 0.75,
+      "macro_f05": 0.7382052466173447,
+      "precision": 0.8924735765427889,
+      "recall": 0.6096183517219295
+    },
+    {
+      "threshold": 0.8,
+      "macro_f05": 0.7030145475497966,
+      "precision": 0.9389565961086166,
+      "recall": 0.5113679368868447
+    },
+    {
+      "threshold": 0.85,
+      "macro_f05": 0.6065755205112783,
+      "precision": 0.9790832220738763,
+      "recall": 0.38426828913277633
+    }
+  ]
+}

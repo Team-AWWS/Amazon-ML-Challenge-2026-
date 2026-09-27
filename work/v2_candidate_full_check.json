@@ -1,0 +1,26 @@
+{
+  "anchors": 1732544,
+  "country_counts": {
+    "US": 663106,
+    "France": 259452,
+    "India": 809986
+  },
+  "candidate_pairs": 53452192,
+  "candidate_mean": 30.851852535924053,
+  "candidate_p95": 36,
+  "candidate_max": 36,
+  "predicted_matches": 4480505,
+  "country_empty_prediction_rate": {
+    "US": 0.08203213362569484,
+    "France": 0.08020366002189229,
+    "India": 0.11979960147459338
+  },
+  "target_ids_all_exist": true,
+  "matches_subset_of_candidates": true,
+  "rows_unique_and_in_source1_order": true,
+  "output_sha256": {
+    "matching_results.tsv": "10e85d58c69387b18fdf8ecedb8e2f150cf2c40a41fb7ad8ef3cbe3ba74bce53",
+    "candidate_pairs.tsv": "7c5d83b5a5c4168d790cae444bdd87cba8c0096e86f0c2ff8b27ab81e4a2f086"
+  },
+  "elapsed_s": 97.2760182999773
+}

@@ -1,0 +1,2985 @@
+{
+  "counts": {
+    "anchors": 300,
+    "true_links": 1063,
+    "retrieved_links": 435,
+    "some_shared_eligible_rare": 375,
+    "chosen_rare_term_shared_limit_or_gate": 358,
+    "shared_df_gt1000": 615,
+    "no_shared_eligible_rare": 253,
+    "rare_gate_ge8": 179,
+    "selected_rarest_not_shared": 17,
+    "exact_limit_6": 25,
+    "shared_df1_excluded": 1
+  },
+  "country_counts": {
+    "US": 150,
+    "India": 150
+  },
+  "seconds": 12.232871500018518,
+  "examples": [
+    {
+      "anchor": {
+        "entity_id": "S1-925783039",
+        "business_name": "Orelee's Barbershop",
+        "business_address": "1795 Westchester Drive, High Point, NC",
+        "country": "US"
+      },
+      "target_id": "S3-698172821",
+      "target": [
+        "orelee s services",
+        "westchester dr high point north carolina",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": "orelee",
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "orelee",
+          174
+        ],
+        [
+          "nname",
+          "s",
+          285950
+        ],
+        [
+          "naddr",
+          "high",
+          27023
+        ],
+        [
+          "naddr",
+          "westchester",
+          1477
+        ],
+        [
+          "naddr",
+          "point",
+          45771
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.5061466666666666
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      },
+      "target_id": "S2-970528089",
+      "target": [
+        "primemoney",
+        "tahlequah ok 0017560 ellis road",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "tahlequah"
+      },
+      "shared": [
+        [
+          "naddr",
+          "ellis",
+          2131
+        ],
+        [
+          "naddr",
+          "tahlequah",
+          798
+        ],
+        [
+          "naddr",
+          "road",
+          1288416
+        ],
+        [
+          "naddr",
+          "ok",
+          52752
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7915749999999999
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      },
+      "target_id": "S3-161452820",
+      "target": [
+        "prime money inc",
+        "17560 ellis rd tahlequah oklahoma",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "tahlequah"
+      },
+      "shared": [
+        [
+          "nname",
+          "money",
+          2448
+        ],
+        [
+          "nname",
+          "prime",
+          34838
+        ],
+        [
+          "naddr",
+          "ellis",
+          2131
+        ],
+        [
+          "naddr",
+          "tahlequah",
+          798
+        ],
+        [
+          "naddr",
+          "17560",
+          28
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8567836734693879
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      },
+      "target_id": "S3-622232873",
+      "target": [
+        "prime money inc",
+        "17560 ellis rd cherokee county oklahoma",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "tahlequah"
+      },
+      "shared": [
+        [
+          "nname",
+          "money",
+          2448
+        ],
+        [
+          "nname",
+          "prime",
+          34838
+        ],
+        [
+          "naddr",
+          "ellis",
+          2131
+        ],
+        [
+          "naddr",
+          "17560",
+          28
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.7463000000000001
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      },
+      "target_id": "S3-202893869",
+      "target": [
+        "primemoney com",
+        "17560 ellis rd tahlequah oklahoma",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "tahlequah"
+      },
+      "shared": [
+        [
+          "naddr",
+          "ellis",
+          2131
+        ],
+        [
+          "naddr",
+          "tahlequah",
+          798
+        ],
+        [
+          "naddr",
+          "17560",
+          28
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7308889366272826
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-377745466",
+        "business_name": "B+ Retail Inc",
+        "business_address": "1712 Montebello Avenue, Phoenix, AZ",
+        "country": "US"
+      },
+      "target_id": "S2-203037501",
+      "target": [
+        "b retail",
+        "phoenix az 1712 montebello ave",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "montebello"
+      },
+      "shared": [
+        [
+          "nname",
+          "retail",
+          12616
+        ],
+        [
+          "nname",
+          "b",
+          32447
+        ],
+        [
+          "naddr",
+          "montebello",
+          395
+        ],
+        [
+          "naddr",
+          "az",
+          130894
+        ],
+        [
+          "naddr",
+          "1712",
+          1218
+        ],
+        [
+          "naddr",
+          "phoenix",
+          32076
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 1.0
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-377745466",
+        "business_name": "B+ Retail Inc",
+        "business_address": "1712 Montebello Avenue, Phoenix, AZ",
+        "country": "US"
+      },
+      "target_id": "S3-402918963",
+      "target": [
+        "b retail incorporated",
+        "1712 montebello ave northeast arizona",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "montebello"
+      },
+      "shared": [
+        [
+          "nname",
+          "retail",
+          12616
+        ],
+        [
+          "nname",
+          "b",
+          32447
+        ],
+        [
+          "naddr",
+          "montebello",
+          395
+        ],
+        [
+          "naddr",
+          "1712",
+          1218
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7740275862068966
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-377745466",
+        "business_name": "B+ Retail Inc",
+        "business_address": "1712 Montebello Avenue, Phoenix, AZ",
+        "country": "US"
+      },
+      "target_id": "S3-70942743",
+      "target": [
+        "b inc services",
+        "arizona phoenix 1712 montebello avenue",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "montebello"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "b",
+          32447
+        ],
+        [
+          "naddr",
+          "montebello",
+          395
+        ],
+        [
+          "naddr",
+          "1712",
+          1218
+        ],
+        [
+          "naddr",
+          "phoenix",
+          32076
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.5515186440677966
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-377745466",
+        "business_name": "B+ Retail Inc",
+        "business_address": "1712 Montebello Avenue, Phoenix, AZ",
+        "country": "US"
+      },
+      "target_id": "S3-836170816",
+      "target": [
+        "b retail inc id 84923",
+        "1712 montebello avenue phoenix arizona",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "montebello"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "retail",
+          12616
+        ],
+        [
+          "nname",
+          "b",
+          32447
+        ],
+        [
+          "naddr",
+          "montebello",
+          395
+        ],
+        [
+          "naddr",
+          "1712",
+          1218
+        ],
+        [
+          "naddr",
+          "phoenix",
+          32076
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8023254237288135
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-755362802",
+        "business_name": "Prabhav Business Center",
+        "business_address": "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+        "country": "India"
+      },
+      "target_id": "S2-587230276",
+      "target": [
+        "prabhav center center",
+        "hn 567 797 lake town block a kolkata null west bengal",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": "prabhav",
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "center",
+          424349
+        ],
+        [
+          "nname",
+          "prabhav",
+          86
+        ],
+        [
+          "naddr",
+          "a",
+          537326
+        ],
+        [
+          "naddr",
+          "bengal",
+          102950
+        ],
+        [
+          "naddr",
+          "town",
+          70487
+        ],
+        [
+          "naddr",
+          "797",
+          1300
+        ],
+        [
+          "naddr",
+          "block",
+          202594
+        ],
+        [
+          "naddr",
+          "kolkata",
+          153726
+        ],
+        [
+          "naddr",
+          "west",
+          392303
+        ],
+        [
+          "naddr",
+          "lake",
+          106739
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.784925
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-851869949",
+        "business_name": "Custom Wealth Services LLC",
+        "business_address": "OH, Columbus, 5559 Orville Avenue",
+        "country": "US"
+      },
+      "target_id": "S3-949828938",
+      "target": [
+        "custom services llc services",
+        "005559 orville ave columus cdp ohio",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "orville"
+      },
+      "shared": [
+        [
+          "nname",
+          "custom",
+          23308
+        ],
+        [
+          "nname",
+          "services",
+          318499
+        ],
+        [
+          "nname",
+          "llc",
+          1099665
+        ],
+        [
+          "naddr",
+          "orville",
+          193
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.5212910188679245
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-851869949",
+        "business_name": "Custom Wealth Services LLC",
+        "business_address": "OH, Columbus, 5559 Orville Avenue",
+        "country": "US"
+      },
+      "target_id": "S2-961342067",
+      "target": [
+        "custom wealth",
+        "555 orville avenue po box 3877 columbus oh",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "orville"
+      },
+      "shared": [
+        [
+          "nname",
+          "custom",
+          23308
+        ],
+        [
+          "nname",
+          "wealth",
+          7792
+        ],
+        [
+          "naddr",
+          "columbus",
+          36914
+        ],
+        [
+          "naddr",
+          "oh",
+          197157
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ],
+        [
+          "naddr",
+          "orville",
+          193
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.69085
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-851869949",
+        "business_name": "Custom Wealth Services LLC",
+        "business_address": "OH, Columbus, 5559 Orville Avenue",
+        "country": "US"
+      },
+      "target_id": "S2-915265864",
+      "target": [
+        "custom wealth llc partners",
+        "555 orville avenue po box 3877 columbus oh",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "orville"
+      },
+      "shared": [
+        [
+          "nname",
+          "custom",
+          23308
+        ],
+        [
+          "nname",
+          "llc",
+          1099665
+        ],
+        [
+          "nname",
+          "wealth",
+          7792
+        ],
+        [
+          "naddr",
+          "columbus",
+          36914
+        ],
+        [
+          "naddr",
+          "oh",
+          197157
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ],
+        [
+          "naddr",
+          "orville",
+          193
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.5487166666666667
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-851869949",
+        "business_name": "Custom Wealth Services LLC",
+        "business_address": "OH, Columbus, 5559 Orville Avenue",
+        "country": "US"
+      },
+      "target_id": "S2-801813753",
+      "target": [
+        "custom wealth services",
+        "555 orville avenue pmb 4228 columbus oh",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "orville"
+      },
+      "shared": [
+        [
+          "nname",
+          "custom",
+          23308
+        ],
+        [
+          "nname",
+          "services",
+          318499
+        ],
+        [
+          "nname",
+          "wealth",
+          7792
+        ],
+        [
+          "naddr",
+          "columbus",
+          36914
+        ],
+        [
+          "naddr",
+          "oh",
+          197157
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ],
+        [
+          "naddr",
+          "orville",
+          193
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7844500000000001
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-785847572",
+        "business_name": "Consulting Nyasa Nursing Private Limited",
+        "business_address": "2505, Tower 1, Oakwood, Runwal Greens, Mulund Goreagon Link Road, Near Fortis Hospital, Bhandup West, Mumbai, Maharashtra",
+        "country": "India"
+      },
+      "target_id": "S2-682432196",
+      "target": [
+        "consulting nyasa nursing private ltd",
+        "2505 tower 1 oakwood runwal greens mulund goreagon link road near fortis hospital bhandup west mumbai महाराष्ट्र",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": "nyasa",
+        "naddr": "goreagon"
+      },
+      "shared": [
+        [
+          "nname",
+          "nyasa",
+          38
+        ],
+        [
+          "nname",
+          "consulting",
+          27011
+        ],
+        [
+          "nname",
+          "nursing",
+          10113
+        ],
+        [
+          "nname",
+          "private",
+          1197662
+        ],
+        [
+          "naddr",
+          "west",
+          392303
+        ],
+        [
+          "naddr",
+          "road",
+          1288416
+        ],
+        [
+          "naddr",
+          "1",
+          591148
+        ],
+        [
+          "naddr",
+          "2505",
+          1028
+        ],
+        [
+          "naddr",
+          "mulund",
+          7569
+        ],
+        [
+          "naddr",
+          "hospital",
+          20908
+        ],
+        [
+          "naddr",
+          "oakwood",
+          4095
+        ],
+        [
+          "naddr",
+          "greens",
+          4872
+        ],
+        [
+          "naddr",
+          "tower",
+          84887
+        ],
+        [
+          "naddr",
+          "link",
+          17927
+        ],
+        [
+          "naddr",
+          "goreagon",
+          34
+        ],
+        [
+          "naddr",
+          "runwal",
+          997
+        ],
+        [
+          "naddr",
+          "near",
+          200474
+        ],
+        [
+          "naddr",
+          "bhandup",
+          3796
+        ],
+        [
+          "naddr",
+          "fortis",
+          133
+        ],
+        [
+          "naddr",
+          "mumbai",
+          360514
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "rare_gate_ge8",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.94625
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-785847572",
+        "business_name": "Consulting Nyasa Nursing Private Limited",
+        "business_address": "2505, Tower 1, Oakwood, Runwal Greens, Mulund Goreagon Link Road, Near Fortis Hospital, Bhandup West, Mumbai, Maharashtra",
+        "country": "India"
+      },
+      "target_id": "S3-145991649",
+      "target": [
+        "consulting nyasa nursing private",
+        "mumbai 2505 mh mumbai",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": "nyasa",
+        "naddr": "goreagon"
+      },
+      "shared": [
+        [
+          "nname",
+          "consulting",
+          27011
+        ],
+        [
+          "nname",
+          "nyasa",
+          38
+        ],
+        [
+          "nname",
+          "nursing",
+          10113
+        ],
+        [
+          "nname",
+          "private",
+          1197662
+        ],
+        [
+          "naddr",
+          "mumbai",
+          360514
+        ],
+        [
+          "naddr",
+          "2505",
+          1028
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "rare_gate_ge8",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8050666666666667
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-27541239",
+        "business_name": "Nexus Anchor Rain",
+        "business_address": "1111 Church Street, Unit 2007, Nashville, TN",
+        "country": "US"
+      },
+      "target_id": "S3-739757636",
+      "target": [
+        "nexus anchor service",
+        "1111 church street nashville tennessee",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "anchor",
+          24940
+        ],
+        [
+          "nname",
+          "nexus",
+          2927
+        ],
+        [
+          "naddr",
+          "1111",
+          2628
+        ],
+        [
+          "naddr",
+          "street",
+          694453
+        ],
+        [
+          "naddr",
+          "church",
+          25703
+        ],
+        [
+          "naddr",
+          "nashville",
+          27363
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6049327586206897
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-27541239",
+        "business_name": "Nexus Anchor Rain",
+        "business_address": "1111 Church Street, Unit 2007, Nashville, TN",
+        "country": "US"
+      },
+      "target_id": "S2-199341916",
+      "target": [
+        "nexus acormhr rain",
+        "church street nashville tn",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "rain",
+          1947
+        ],
+        [
+          "nname",
+          "nexus",
+          2927
+        ],
+        [
+          "naddr",
+          "street",
+          694453
+        ],
+        [
+          "naddr",
+          "church",
+          25703
+        ],
+        [
+          "naddr",
+          "nashville",
+          27363
+        ],
+        [
+          "naddr",
+          "tn",
+          242290
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6368666666666667
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-629417405",
+        "business_name": "Moore Bitwise Inc",
+        "business_address": "337 Oakland Avenue, Michigan City, IN",
+        "country": "US"
+      },
+      "target_id": "S3-606982601",
+      "target": [
+        "moore inc services",
+        "0337 oakland ave michigan city indiana",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "moore",
+          8634
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "oakland",
+          4947
+        ],
+        [
+          "naddr",
+          "michigan",
+          3851
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.5140542372881356
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-629417405",
+        "business_name": "Moore Bitwise Inc",
+        "business_address": "337 Oakland Avenue, Michigan City, IN",
+        "country": "US"
+      },
+      "target_id": "S2-928426462",
+      "target": [
+        "moore inc center",
+        "337 oakland ave michhigan city city in",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "moore",
+          8634
+        ],
+        [
+          "naddr",
+          "in",
+          122668
+        ],
+        [
+          "naddr",
+          "oakland",
+          4947
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "337",
+          4089
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.5669642857142858
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-629417405",
+        "business_name": "Moore Bitwise Inc",
+        "business_address": "337 Oakland Avenue, Michigan City, IN",
+        "country": "US"
+      },
+      "target_id": "S3-613837325",
+      "target": [
+        "moore inc bitwise",
+        "0337 oakland avenue michigan city indiana",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "moore",
+          8634
+        ],
+        [
+          "nname",
+          "bitwise",
+          1660
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "oakland",
+          4947
+        ],
+        [
+          "naddr",
+          "michigan",
+          3851
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.8540129032258065
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-629417405",
+        "business_name": "Moore Bitwise Inc",
+        "business_address": "337 Oakland Avenue, Michigan City, IN",
+        "country": "US"
+      },
+      "target_id": "S3-438606634",
+      "target": [
+        "moorebitwise com",
+        "0337 oakland avenue michigan city indiana",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "oakland",
+          4947
+        ],
+        [
+          "naddr",
+          "michigan",
+          3851
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6940129032258064
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-22305073",
+        "business_name": "Dermatology Green Medicine",
+        "business_address": "294 Meadowcreek Drive, Unit Unit 2, Village Of Pewaukee, WI",
+        "country": "US"
+      },
+      "target_id": "S2-578011604",
+      "target": [
+        "dermatology green",
+        "294 madowcreek dr pewaukee wi",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "meadowcreek"
+      },
+      "shared": [
+        [
+          "nname",
+          "dermatology",
+          22368
+        ],
+        [
+          "nname",
+          "green",
+          46055
+        ],
+        [
+          "naddr",
+          "pewaukee",
+          881
+        ],
+        [
+          "naddr",
+          "wi",
+          72585
+        ],
+        [
+          "naddr",
+          "294",
+          3520
+        ]
+      ],
+      "tags": [
+        "selected_rarest_not_shared",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.74085
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-504790211",
+        "business_name": "Crystal Lending PC",
+        "business_address": "11643 Prosperity Road, South Jordan, UT",
+        "country": "US"
+      },
+      "target_id": "S3-956253301",
+      "target": [
+        "crystallending com",
+        "south jodan utah 11643 prosperity rd",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "prosperity"
+      },
+      "shared": [
+        [
+          "naddr",
+          "11643",
+          49
+        ],
+        [
+          "naddr",
+          "prosperity",
+          419
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7130933956750439
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-504790211",
+        "business_name": "Crystal Lending PC",
+        "business_address": "11643 Prosperity Road, South Jordan, UT",
+        "country": "US"
+      },
+      "target_id": "S2-384272292",
+      "target": [
+        "crystal lending",
+        "11643 11645 prosperity rd po box 4706 south jordan ut",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "prosperity"
+      },
+      "shared": [
+        [
+          "nname",
+          "crystal",
+          23737
+        ],
+        [
+          "nname",
+          "lending",
+          4973
+        ],
+        [
+          "naddr",
+          "ut",
+          53521
+        ],
+        [
+          "naddr",
+          "11643",
+          49
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "jordan",
+          7392
+        ],
+        [
+          "naddr",
+          "prosperity",
+          419
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.829
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-504790211",
+        "business_name": "Crystal Lending PC",
+        "business_address": "11643 Prosperity Road, South Jordan, UT",
+        "country": "US"
+      },
+      "target_id": "S2-939343525",
+      "target": [
+        "crystal lending",
+        "11643 11645 prosperity rd south jordan ut",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "prosperity"
+      },
+      "shared": [
+        [
+          "nname",
+          "crystal",
+          23737
+        ],
+        [
+          "nname",
+          "lending",
+          4973
+        ],
+        [
+          "naddr",
+          "ut",
+          53521
+        ],
+        [
+          "naddr",
+          "11643",
+          49
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "jordan",
+          7392
+        ],
+        [
+          "naddr",
+          "prosperity",
+          419
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8347333333333333
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-504790211",
+        "business_name": "Crystal Lending PC",
+        "business_address": "11643 Prosperity Road, South Jordan, UT",
+        "country": "US"
+      },
+      "target_id": "S2-830972710",
+      "target": [
+        "crystal lending inc",
+        "11643 11645 prosperity rd south jordan ut",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "prosperity"
+      },
+      "shared": [
+        [
+          "nname",
+          "crystal",
+          23737
+        ],
+        [
+          "nname",
+          "lending",
+          4973
+        ],
+        [
+          "naddr",
+          "ut",
+          53521
+        ],
+        [
+          "naddr",
+          "11643",
+          49
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "jordan",
+          7392
+        ],
+        [
+          "naddr",
+          "prosperity",
+          419
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8347333333333333
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-504790211",
+        "business_name": "Crystal Lending PC",
+        "business_address": "11643 Prosperity Road, South Jordan, UT",
+        "country": "US"
+      },
+      "target_id": "S2-340882825",
+      "target": [
+        "crystal pc lending",
+        "",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "prosperity"
+      },
+      "shared": [
+        [
+          "nname",
+          "crystal",
+          23737
+        ],
+        [
+          "nname",
+          "pc",
+          76097
+        ],
+        [
+          "nname",
+          "lending",
+          4973
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.72
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-236312382",
+        "business_name": "Kelly Advisory, Inc",
+        "business_address": "301 1st Street, Chokio, MN",
+        "country": "US"
+      },
+      "target_id": "S2-734049056",
+      "target": [
+        "kelly advisorc inc",
+        "301 first st chokio mn",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "chokio"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "kelly",
+          3279
+        ],
+        [
+          "naddr",
+          "301",
+          25714
+        ],
+        [
+          "naddr",
+          "chokio",
+          30
+        ],
+        [
+          "naddr",
+          "mn",
+          73070
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.6821642857142858
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-865131206",
+        "business_name": "Helios",
+        "business_address": "66 Edgewood Street, Bridgeport, CT",
+        "country": "US"
+      },
+      "target_id": "S3-567734078",
+      "target": [
+        "helios",
+        "66 edgewood street bridgeport connecticut",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "helios",
+          2395
+        ],
+        [
+          "naddr",
+          "66",
+          20245
+        ],
+        [
+          "naddr",
+          "street",
+          694453
+        ],
+        [
+          "naddr",
+          "edgewood",
+          4185
+        ],
+        [
+          "naddr",
+          "bridgeport",
+          4425
+        ]
+      ],
+      "tags": [
+        "exact_limit_6",
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.8708542372881356
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-865131206",
+        "business_name": "Helios",
+        "business_address": "66 Edgewood Street, Bridgeport, CT",
+        "country": "US"
+      },
+      "target_id": "S3-652513823",
+      "target": [
+        "hiros",
+        "connecticut 66 edgewood st bridgeport",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "66",
+          20245
+        ],
+        [
+          "naddr",
+          "edgewood",
+          4185
+        ],
+        [
+          "naddr",
+          "bridgeport",
+          4425
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.4582
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-865131206",
+        "business_name": "Helios",
+        "business_address": "66 Edgewood Street, Bridgeport, CT",
+        "country": "US"
+      },
+      "target_id": "S3-219374335",
+      "target": [
+        "helios com",
+        "bridgeport 66 edgewood saint connecticut",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "helios",
+          2395
+        ],
+        [
+          "naddr",
+          "66",
+          20245
+        ],
+        [
+          "naddr",
+          "edgewood",
+          4185
+        ],
+        [
+          "naddr",
+          "bridgeport",
+          4425
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.74085
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-865131206",
+        "business_name": "Helios",
+        "business_address": "66 Edgewood Street, Bridgeport, CT",
+        "country": "US"
+      },
+      "target_id": "S2-657355663",
+      "target": [
+        "heli0s lp",
+        "66 edgewood st bridgeport ct",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "66",
+          20245
+        ],
+        [
+          "naddr",
+          "ct",
+          182904
+        ],
+        [
+          "naddr",
+          "edgewood",
+          4185
+        ],
+        [
+          "naddr",
+          "bridgeport",
+          4425
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6672
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-626914593",
+        "business_name": "Unified Choice Dynamix",
+        "business_address": "Unit BUILDING 3030, MD, 2701 Eastern Boulevard, Middle River",
+        "country": "US"
+      },
+      "target_id": "S3-594660686",
+      "target": [
+        "unified choice center",
+        "2701 a eastern boulevard unit building 3030 middle river maryland",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "unified",
+          25316
+        ],
+        [
+          "nname",
+          "choice",
+          24857
+        ],
+        [
+          "naddr",
+          "boulevard",
+          45895
+        ],
+        [
+          "naddr",
+          "2701",
+          1078
+        ],
+        [
+          "naddr",
+          "3030",
+          795
+        ],
+        [
+          "naddr",
+          "eastern",
+          4360
+        ],
+        [
+          "naddr",
+          "middle",
+          6229
+        ],
+        [
+          "naddr",
+          "unit",
+          219006
+        ],
+        [
+          "naddr",
+          "building",
+          86567
+        ],
+        [
+          "naddr",
+          "river",
+          42519
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6575936507936508
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-626914593",
+        "business_name": "Unified Choice Dynamix",
+        "business_address": "Unit BUILDING 3030, MD, 2701 Eastern Boulevard, Middle River",
+        "country": "US"
+      },
+      "target_id": "S2-563003232",
+      "target": [
+        "unified choice dynamx",
+        "middle river 2701 eastern blvd md",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "unified",
+          25316
+        ],
+        [
+          "nname",
+          "choice",
+          24857
+        ],
+        [
+          "naddr",
+          "middle",
+          6229
+        ],
+        [
+          "naddr",
+          "2701",
+          1078
+        ],
+        [
+          "naddr",
+          "eastern",
+          4360
+        ],
+        [
+          "naddr",
+          "md",
+          96884
+        ],
+        [
+          "naddr",
+          "river",
+          42519
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.7717190476190476
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-765734254",
+        "business_name": "Health Fellowship Partners",
+        "business_address": "601 Oleander Circle, Virginia Beach City, VA",
+        "country": "US"
+      },
+      "target_id": "S3-179968484",
+      "target": [
+        "health fellowship parrts",
+        "601 oleander cir virginia beach virginia",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "oleander"
+      },
+      "shared": [
+        [
+          "nname",
+          "fellowship",
+          16475
+        ],
+        [
+          "nname",
+          "health",
+          108480
+        ],
+        [
+          "naddr",
+          "601",
+          11552
+        ],
+        [
+          "naddr",
+          "oleander",
+          505
+        ],
+        [
+          "naddr",
+          "virginia",
+          177728
+        ],
+        [
+          "naddr",
+          "beach",
+          36458
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7109371428571429
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-765734254",
+        "business_name": "Health Fellowship Partners",
+        "business_address": "601 Oleander Circle, Virginia Beach City, VA",
+        "country": "US"
+      },
+      "target_id": "S3-392778993",
+      "target": [
+        "health fellowship partners llc",
+        "601 oleander cir virginia beach virginia",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "oleander"
+      },
+      "shared": [
+        [
+          "nname",
+          "fellowship",
+          16475
+        ],
+        [
+          "nname",
+          "partners",
+          320743
+        ],
+        [
+          "nname",
+          "health",
+          108480
+        ],
+        [
+          "naddr",
+          "601",
+          11552
+        ],
+        [
+          "naddr",
+          "oleander",
+          505
+        ],
+        [
+          "naddr",
+          "virginia",
+          177728
+        ],
+        [
+          "naddr",
+          "beach",
+          36458
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8520800000000001
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-765734254",
+        "business_name": "Health Fellowship Partners",
+        "business_address": "601 Oleander Circle, Virginia Beach City, VA",
+        "country": "US"
+      },
+      "target_id": "S3-799567902",
+      "target": [
+        "health fellowship partners federation",
+        "",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "oleander"
+      },
+      "shared": [
+        [
+          "nname",
+          "fellowship",
+          16475
+        ],
+        [
+          "nname",
+          "partners",
+          320743
+        ],
+        [
+          "nname",
+          "health",
+          108480
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.5903999999999999
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-82053739",
+        "business_name": "Smart Healthcare Private Limited",
+        "business_address": "303, 3Rd Floor Sakar 5 B/H Natraj Cinema Ashram Road, Ahmedabad, Gujarat",
+        "country": "India"
+      },
+      "target_id": "S3-618834296",
+      "target": [
+        "smart healthcare limited services",
+        "303 3rd floor sakar 5 b h natraj cinema ashram road ahmedabad gj",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "natraj"
+      },
+      "shared": [
+        [
+          "nname",
+          "smart",
+          34945
+        ],
+        [
+          "nname",
+          "limited",
+          1236140
+        ],
+        [
+          "nname",
+          "healthcare",
+          25932
+        ],
+        [
+          "naddr",
+          "303",
+          18894
+        ],
+        [
+          "naddr",
+          "road",
+          1288416
+        ],
+        [
+          "naddr",
+          "cinema",
+          7706
+        ],
+        [
+          "naddr",
+          "sakar",
+          738
+        ],
+        [
+          "naddr",
+          "h",
+          370270
+        ],
+        [
+          "naddr",
+          "natraj",
+          576
+        ],
+        [
+          "naddr",
+          "5",
+          176809
+        ],
+        [
+          "naddr",
+          "floor",
+          597331
+        ],
+        [
+          "naddr",
+          "ahmedabad",
+          89474
+        ],
+        [
+          "naddr",
+          "ashram",
+          5578
+        ],
+        [
+          "naddr",
+          "3rd",
+          90926
+        ],
+        [
+          "naddr",
+          "b",
+          371287
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "rare_gate_ge8",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8347333333333333
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-341506266",
+        "business_name": "Secunderabad Park Private Limited",
+        "business_address": "Secunderabad, Hyderabad, Plot No.53, Flat No.402, Sr Estate-I Rainbow Colony, Ammuguda, Sainikpuri, Telangana, # 53/1",
+        "country": "India"
+      },
+      "target_id": "S2-762225006",
+      "target": [
+        "secunderabad park private",
+        "plot no 53 flat no 402 sr estate i rainbow colony ammuguda sainikpuri secunderabad 53 1 telangana hyderabad",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "ammuguda"
+      },
+      "shared": [
+        [
+          "nname",
+          "park",
+          8246
+        ],
+        [
+          "nname",
+          "secunderabad",
+          1442
+        ],
+        [
+          "nname",
+          "private",
+          1197662
+        ],
+        [
+          "naddr",
+          "flat",
+          173563
+        ],
+        [
+          "naddr",
+          "53",
+          23493
+        ],
+        [
+          "naddr",
+          "hyderabad",
+          167047
+        ],
+        [
+          "naddr",
+          "1",
+          591148
+        ],
+        [
+          "naddr",
+          "ammuguda",
+          28
+        ],
+        [
+          "naddr",
+          "plot",
+          341980
+        ],
+        [
+          "naddr",
+          "estate",
+          56446
+        ],
+        [
+          "naddr",
+          "402",
+          16262
+        ],
+        [
+          "naddr",
+          "sr",
+          27305
+        ],
+        [
+          "naddr",
+          "i",
+          69529
+        ],
+        [
+          "naddr",
+          "rainbow",
+          3073
+        ],
+        [
+          "naddr",
+          "colony",
+          177348
+        ],
+        [
+          "naddr",
+          "telangana",
+          82090
+        ],
+        [
+          "naddr",
+          "sainikpuri",
+          907
+        ],
+        [
+          "naddr",
+          "secunderabad",
+          17097
+        ],
+        [
+          "naddr",
+          "no",
+          1827815
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 1.0
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-597762257",
+        "business_name": "Green Logistics Private Limited",
+        "business_address": "E-7, Second Floor, New Delhi, South Delhi, Delhi",
+        "country": "India"
+      },
+      "target_id": "S2-535895394",
+      "target": [
+        "ग्रीन लॉजिस्टिक्स प्राइवेट लिमिटेड",
+        "e 7 second floor new delhi south delhi दिल्ली",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "e",
+          122889
+        ],
+        [
+          "naddr",
+          "7",
+          141906
+        ],
+        [
+          "naddr",
+          "floor",
+          597331
+        ],
+        [
+          "naddr",
+          "delhi",
+          535355
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "second",
+          36785
+        ],
+        [
+          "naddr",
+          "new",
+          677211
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.6228571428571429
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-597762257",
+        "business_name": "Green Logistics Private Limited",
+        "business_address": "E-7, Second Floor, New Delhi, South Delhi, Delhi",
+        "country": "India"
+      },
+      "target_id": "S3-426660831",
+      "target": [
+        "ग्रीन लॉजिस्टिक्स प्राइवेट लिमिटेड",
+        "south delhi no 225 e 7 dl new delhi",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "e",
+          122889
+        ],
+        [
+          "naddr",
+          "7",
+          141906
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "delhi",
+          535355
+        ],
+        [
+          "naddr",
+          "new",
+          677211
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.5046666666666667
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-597762257",
+        "business_name": "Green Logistics Private Limited",
+        "business_address": "E-7, Second Floor, New Delhi, South Delhi, Delhi",
+        "country": "India"
+      },
+      "target_id": "S2-152865025",
+      "target": [
+        "ग्रीन लॉजिस्टिक्स प्राइवेट लिमिटेड",
+        "e 7 new delhi second floor south delhi delhi",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": null
+      },
+      "shared": [
+        [
+          "naddr",
+          "e",
+          122889
+        ],
+        [
+          "naddr",
+          "7",
+          141906
+        ],
+        [
+          "naddr",
+          "floor",
+          597331
+        ],
+        [
+          "naddr",
+          "delhi",
+          535355
+        ],
+        [
+          "naddr",
+          "south",
+          213445
+        ],
+        [
+          "naddr",
+          "second",
+          36785
+        ],
+        [
+          "naddr",
+          "new",
+          677211
+        ]
+      ],
+      "tags": [
+        "no_shared_eligible_rare",
+        "rare_gate_ge8",
+        "shared_df_gt1000"
+      ],
+      "baseline_score": 0.7200000000000001
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-661315962",
+        "business_name": "Scott Eagle Inc",
+        "business_address": "4828 Hedges Avenue, Kansas City, MO",
+        "country": "US"
+      },
+      "target_id": "S3-173691513",
+      "target": [
+        "scott ene inc",
+        "hedges ave kansas city missouri",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "hedges"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "scott",
+          5129
+        ],
+        [
+          "naddr",
+          "hedges",
+          179
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "kansas",
+          52865
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.5273333333333333
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-661315962",
+        "business_name": "Scott Eagle Inc",
+        "business_address": "4828 Hedges Avenue, Kansas City, MO",
+        "country": "US"
+      },
+      "target_id": "S2-906228400",
+      "target": [
+        "the scott eagle inc",
+        "4828 hedges avenue null kansas city mo",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "hedges"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "eagle",
+          2707
+        ],
+        [
+          "nname",
+          "scott",
+          5129
+        ],
+        [
+          "naddr",
+          "4828",
+          300
+        ],
+        [
+          "naddr",
+          "mo",
+          60783
+        ],
+        [
+          "naddr",
+          "kansas",
+          52865
+        ],
+        [
+          "naddr",
+          "hedges",
+          179
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "avenue",
+          405843
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.9226000000000001
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-661315962",
+        "business_name": "Scott Eagle Inc",
+        "business_address": "4828 Hedges Avenue, Kansas City, MO",
+        "country": "US"
+      },
+      "target_id": "S3-565216958",
+      "target": [
+        "the scott eagle inc",
+        "4830 hedges ave kansas city missouri",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": null,
+        "naddr": "hedges"
+      },
+      "shared": [
+        [
+          "nname",
+          "inc",
+          846952
+        ],
+        [
+          "nname",
+          "eagle",
+          2707
+        ],
+        [
+          "nname",
+          "scott",
+          5129
+        ],
+        [
+          "naddr",
+          "hedges",
+          179
+        ],
+        [
+          "naddr",
+          "city",
+          650527
+        ],
+        [
+          "naddr",
+          "kansas",
+          52865
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.6138549818181818
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-716574008",
+        "business_name": "Rajani Enterprises of Kannur",
+        "business_address": "46/1106, Dhanalakshmi Road, Near Amani Auditorium, Kannur, Kerala",
+        "country": "India"
+      },
+      "target_id": "S2-149909235",
+      "target": [
+        "rajani enterprises of kannur llp",
+        "pgot 409 46 1106 dhanalakshmi road near amani auditorium kannur കേരളം",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": "rajani",
+        "naddr": "amani"
+      },
+      "shared": [
+        [
+          "nname",
+          "rajani",
+          149
+        ],
+        [
+          "nname",
+          "of",
+          183296
+        ],
+        [
+          "nname",
+          "kannur",
+          307
+        ],
+        [
+          "nname",
+          "enterprises",
+          108317
+        ],
+        [
+          "naddr",
+          "46",
+          26278
+        ],
+        [
+          "naddr",
+          "amani",
+          77
+        ],
+        [
+          "naddr",
+          "road",
+          1288416
+        ],
+        [
+          "naddr",
+          "1106",
+          2544
+        ],
+        [
+          "naddr",
+          "kannur",
+          5583
+        ],
+        [
+          "naddr",
+          "dhanalakshmi",
+          350
+        ],
+        [
+          "naddr",
+          "near",
+          200474
+        ],
+        [
+          "naddr",
+          "auditorium",
+          218
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8722285714285714
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-716574008",
+        "business_name": "Rajani Enterprises of Kannur",
+        "business_address": "46/1106, Dhanalakshmi Road, Near Amani Auditorium, Kannur, Kerala",
+        "country": "India"
+      },
+      "target_id": "S2-233999366",
+      "target": [
+        "rajani kannur of enterprises",
+        "plot 409 46 1106 dhanalakshmi rood near amani auditorium kannur കേരളം",
+        "India"
+      ],
+      "selected_terms": {
+        "nname": "rajani",
+        "naddr": "amani"
+      },
+      "shared": [
+        [
+          "nname",
+          "rajani",
+          149
+        ],
+        [
+          "nname",
+          "of",
+          183296
+        ],
+        [
+          "nname",
+          "kannur",
+          307
+        ],
+        [
+          "nname",
+          "enterprises",
+          108317
+        ],
+        [
+          "naddr",
+          "46",
+          26278
+        ],
+        [
+          "naddr",
+          "amani",
+          77
+        ],
+        [
+          "naddr",
+          "1106",
+          2544
+        ],
+        [
+          "naddr",
+          "kannur",
+          5583
+        ],
+        [
+          "naddr",
+          "dhanalakshmi",
+          350
+        ],
+        [
+          "naddr",
+          "near",
+          200474
+        ],
+        [
+          "naddr",
+          "auditorium",
+          218
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.8722285714285714
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-985038901",
+        "business_name": "Schaefer, Michael and Silver Associates",
+        "business_address": "32876 Circle Drive, Millsboro, DE",
+        "country": "US"
+      },
+      "target_id": "S2-895941180",
+      "target": [
+        "silver michael and schaefer ass0ciates",
+        "32876 cidcle dr millsboro de",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": "schaefer",
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "silver",
+          42407
+        ],
+        [
+          "nname",
+          "schaefer",
+          416
+        ],
+        [
+          "nname",
+          "and",
+          246773
+        ],
+        [
+          "nname",
+          "michael",
+          529
+        ],
+        [
+          "naddr",
+          "de",
+          28174
+        ],
+        [
+          "naddr",
+          "millsboro",
+          1645
+        ],
+        [
+          "naddr",
+          "32876",
+          4
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7231148936170213
+    },
+    {
+      "anchor": {
+        "entity_id": "S1-985038901",
+        "business_name": "Schaefer, Michael and Silver Associates",
+        "business_address": "32876 Circle Drive, Millsboro, DE",
+        "country": "US"
+      },
+      "target_id": "S2-228558022",
+      "target": [
+        "schaefer michae1 and silver associates",
+        "millsboro de 32876 cirile dr",
+        "US"
+      ],
+      "selected_terms": {
+        "nname": "schaefer",
+        "naddr": null
+      },
+      "shared": [
+        [
+          "nname",
+          "silver",
+          42407
+        ],
+        [
+          "nname",
+          "schaefer",
+          416
+        ],
+        [
+          "nname",
+          "associates",
+          155438
+        ],
+        [
+          "nname",
+          "and",
+          246773
+        ],
+        [
+          "naddr",
+          "de",
+          28174
+        ],
+        [
+          "naddr",
+          "millsboro",
+          1645
+        ],
+        [
+          "naddr",
+          "32876",
+          4
+        ]
+      ],
+      "tags": [
+        "chosen_rare_term_shared_limit_or_gate",
+        "shared_df_gt1000",
+        "some_shared_eligible_rare"
+      ],
+      "baseline_score": 0.7387148936170214
+    }
+  ]
+}
